@@ -1,0 +1,65 @@
+@media screen and (max-width:920px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+    .navbar .nav{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+}
+
+
+
+
+@media screen and (max-width: 920px) {
+    .navbar{
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    main #banner .banner-content {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 740px) {
+    .header .navbar .navigation {
+      display: none;
+    }
+  
+    .header .navbar .menu-toggle {
+      display: block;
+    }
+  
+    #posts .posts-content .posts-cards {
+      flex-direction: column;
+    }
+  
+    .header .navbar .navigation.show {
+      display: block;
+      position: absolute;
+      background-color: azure;
+      width: 100%;
+      top: 170px;
+      right: 0;
+      z-index: 1000;
+      height: calc(100vh - 170px)
+      
+    }
+  
+    .header .navbar .navigation li {
+      transition: 0.6s;
+      display: block;
+      padding: 1rem 0;
+      margin: 0 1rem;
+      border-bottom: 2px solid black;
+    }
+  }
+  

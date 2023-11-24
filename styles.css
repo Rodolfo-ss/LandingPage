@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: initial;
+  font-family: "Trebuchet MS", sans-serif;
+  z-index: 20;
+}
+
+.navbar .logo {
+  display: flex;
+}
+
+.menu-toggle{
+  display: none;
+}
+
+.menu-toggle .bar{
+  display: block;
+  width: 45px;
+  height: 5px;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+  cursor: pointer;
+}
+
+
+
+#primeira {
+  max-width: 1200px;
+  margin: 10px auto;
+  overflow: hidden;
+  text-align: center;
+  font-size: 22px;
+}
+
+#primeira {
+  min-width: 600px;
+  line-height: 39px;
+}
+
+#segunda {
+  max-width: 1200px;
+  margin: 10px auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+#segunda .places{
+  cursor: pointer;
+  margin: 50px;
+  display: flex;
+  width: 300px;
+}
+ 
+#segunda .places img{
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+#terceira {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#quarta {
+  max-width: 1200px;
+  margin: 10px auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+#terceira img {
+  width: 120px;
+  height: 100px;
+}
+
+#terceira .imagesTree {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 40px;
+  cursor: pointer;
+  gap: 60px;
+}
+
+#terceira .imagesTree .images-terceira {
+  font-size: 14px;
+  padding: 10px;
+}
+
+#terceira .imagesTree .images-terceira:hover {
+  background-color: silver;
+  padding: 10px;
+  transition: 1s;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  align-items: center;
+  opacity: 0.5;
+  font-size: 27px;
+  padding: 40px;
+}
+
+.navbar .logo img {
+  width: 20px;
+}
+
+.navbar .nav {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .nav li {
+  margin: 10px;
+  padding: 20px;
+}
+
+.navbar .nav li:hover {
+  background-color: silver;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+body {
+  background-image: url("./img/29079923_0_0_3072_2048_1440x900_80_0_1_a0b953ec2e6a98a6110e0354ad313f2a.jpg.webp");
+  background-repeat:;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.redes{
+  display: flex;
+  justify-content: center;
+  margin: 120px;
+}
+
+.redes i{
+  margin: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
