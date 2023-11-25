@@ -1,65 +1,151 @@
-@media screen and (max-width:920px) {
-    .navbar{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-      }
-    .navbar .nav{
-        display: none;
-    }
+@media screen and (max-width: 979px) {
+  .navbar .nav{
+    display: none;
+  }
 
-    .menu-toggle{
-        display: block;
-    }
+  .navbar .menu-toggle{
+    display: block;
+  }
+
+  .segunda .places{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 700px;
+  }
+
+  .navbar .nav{
+    white-space: nowrap;
+  }
+
+
+  .navbar .nav.ativo {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    background-color: azure;
+    width: 100%;
+    top: 170px;
+    right: 0;
+    z-index: 1000;
+    height: calc(100vh - 170px)
+  }
+  
+  .navbar .nav li {
+    color: black;
+    transition: 0.6s;
+    display: block;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .menu-toggle {
+    width: 10px;
+  }
+
+  .navbar{
+    font-size: 29px;
+    margin: 10px;
+  }
+
+  #segunda .texth2{
+    font-size: 20px;
+  }
+
+  .segunda .places{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 700px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .navbar .menu-toggle {
+    width: 10px;
+  }
+
+  .navbar{
+    font-size: 19px;
+    margin: 10px;
+  }
+
+  #segunda .texth2{
+    font-size: 20px;
+  }
+
+  #segunda .places{
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+  }
+
+  .navbar .nav.ativo {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    color:black;
+    background-color: azure;
+    width: 100%;
+    top: 170px;
+    right: 0;
+    z-index: 1000;
+    height: calc(100vh - 170px)
+  }
+
+  #primeira h1{
+    font-size: 32px;
+  }
+
+  #primeira p{
+    font-size: 21px;
+  }
+
+  #primeira {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+  }
+  
+  #primeira .redes{
+    position: absolute;
+    top: 600px;
+
+  }
+
+  .navbar .nav li {
+    color: black;
+    transition: 0.6s;
+    display: block;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid black;
+  }
+
+  .navbar .nav li a:hover {
+    position: absolute;
+    background-color: silver;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  #terceira .imagesTree{
+  display: flex;
+  flex-direction: column;
+  }
+
 }
 
 
 
 
-@media screen and (max-width: 920px) {
-    .navbar{
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-    }
-  
-    main #banner .banner-content {
-      text-align: center;
-    }
-  }
-  
-  @media screen and (max-width: 740px) {
-    .header .navbar .navigation {
-      display: none;
-    }
-  
-    .header .navbar .menu-toggle {
-      display: block;
-    }
-  
-    #posts .posts-content .posts-cards {
-      flex-direction: column;
-    }
-  
-    .header .navbar .navigation.show {
-      display: block;
-      position: absolute;
-      background-color: azure;
-      width: 100%;
-      top: 170px;
-      right: 0;
-      z-index: 1000;
-      height: calc(100vh - 170px)
-      
-    }
-  
-    .header .navbar .navigation li {
-      transition: 0.6s;
-      display: block;
-      padding: 1rem 0;
-      margin: 0 1rem;
-      border-bottom: 2px solid black;
-    }
-  }
-  
+
+
+
+
+
