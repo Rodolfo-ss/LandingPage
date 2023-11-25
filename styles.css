@@ -5,7 +5,13 @@
   text-decoration: none;
   color: initial;
   font-family: "Trebuchet MS", sans-serif;
-  z-index: 20;
+}
+
+
+body {
+  background-image: url("./img/29079923_0_0_3072_2048_1440x900_80_0_1_a0b953ec2e6a98a6110e0354ad313f2a.jpg.webp");
+  background-size: cover;
+  overflow: hidden;
 }
 
 .navbar .logo {
@@ -14,6 +20,7 @@
 
 .menu-toggle{
   display: none;
+  cursor: pointer;
 }
 
 .menu-toggle .bar{
@@ -24,10 +31,11 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: black;
-  cursor: pointer;
 }
 
-
+.ativo{
+  display: block;
+}
 
 #primeira {
   max-width: 1200px;
@@ -56,6 +64,10 @@
   width: 300px;
 }
  
+#segunda .texth2{
+  font-size: 32px;
+}
+
 #segunda .places img{
   margin: 20px;
   width: 300px;
@@ -118,6 +130,7 @@
 .navbar .nav {
   display: flex;
   list-style: none;
+  z-index: 54;
 }
 
 .navbar .nav li {
@@ -132,12 +145,6 @@
   border-radius: 10px;
 }
 
-body {
-  background-image: url("./img/29079923_0_0_3072_2048_1440x900_80_0_1_a0b953ec2e6a98a6110e0354ad313f2a.jpg.webp");
-  background-repeat:;
-  background-size: cover;
-  overflow: hidden;
-}
 
 
 .redes{
